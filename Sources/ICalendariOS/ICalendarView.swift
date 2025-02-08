@@ -129,7 +129,6 @@ open class ICalendarView: UIViewController {
     }
     
     @objc private func doneBtnAction(){
-        print("date====\(datePicker.date)")
         dismiss(animated: true) { [self] in
          delegate?.didClickedDoneBtn(selectedDate: datePicker.date)
         }
