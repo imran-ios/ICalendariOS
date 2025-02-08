@@ -7,6 +7,8 @@ To install this package to your iOS application import `https://github.com/imran
 
 ## Uses Example
 
+import  import ICalendariOS in your file
+
 ```swift
 let calenderView = ICalendarView()
 calenderView.delegate = self
